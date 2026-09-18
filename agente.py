@@ -124,7 +124,7 @@ def agent_version_c(coleccion, pregunta, n_resultados=1):
     contexto = "\n".join(fragmentos)
 
     prompt = (
-        "Eres un concierge de viajes de lujo. "
+        "Eres un agente de viajes de lujo. "
         "Tu tono es elegante pero cercano. "
         "Requisito estricto: Formatea la respuesta estrictamente en una tabla Markdown con las columnas: "
         "[Horario | Actividad | Restricción Dietética / Notas | Precio]."

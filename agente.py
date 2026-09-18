@@ -90,7 +90,7 @@ def agent_version_b(coleccion, pregunta, n_resultados=1):
     contexto = "\n".join(fragmentos)
 
     prompt = (
-        "Eres un concierge de viajes experto. "
+        "Eres un agente de viajes experto. "
         f"INFORMACIÓN:\n{contexto}\n\n"
         f"PREGUNTA: {pregunta}"
     )
